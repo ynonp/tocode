@@ -1,2 +1,4 @@
 year = int(input("please enter your age in years:"))
-print("your age in months is: ", year * 12)
+# I'd use a new variable here, and I like f strings too
+age_in_months = year * 12
+print(f"your age in months is: {age_in_months}")
