@@ -5,9 +5,9 @@ def rund_sum():
     while True:
         rund_num = random.randrange(1, 1000000)
         # That's cool however I prefer shorter lines so I would write
-        if rund_num % 7  != 0: next
-        if rund_num % 13 != 0: next
-        if rund_num % 15 != 0: next
+        if rund_num % 7  != 0: continue
+        if rund_num % 13 != 0: continue
+        if rund_num % 15 != 0: continue
         return rund_num
 
 
