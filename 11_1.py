@@ -1,6 +1,6 @@
 list = []
 counter = 1
-for _ in range(10):
+for num in range(10):
     print(counter, " from 10")
     number = int(input("enter number\n"))
     list.append(number)
