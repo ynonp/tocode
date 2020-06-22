@@ -1,5 +1,7 @@
-import random
-
-# Using randrange() to generate numbers from 50-100
-print("Random number from 50-100 is : ", end="")
-print(random.randrange(1, 1000000))
+number = int(input("please choose a number"))
+mod7 = int(number) % 7
+for i in len(number):
+    if number[i] == 7:
+        cont7 = 1
+    if mod7 == 0 or cont7 == 1:
+        print("BOOM")
