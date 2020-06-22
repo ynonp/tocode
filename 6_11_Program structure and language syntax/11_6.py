@@ -8,6 +8,8 @@ def rund_sum():
         guess = int(input("Which number did I choose (1 - 100)?"))
         if guess > 100 or guess < 0:
             print("Please select a number between 1 and 100!")
+        # I see your computer player never cheats...
+        # that's ok, honesty is a virtue
         else:
             if guess < rund_num:
                 print("Put the number up")
